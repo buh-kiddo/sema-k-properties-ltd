@@ -413,7 +413,7 @@ nav::before{
 
 
 .our-products{
-    background: url(/images/main-photo-2.jpg) center no-repeat;
+    background: url('../images/main-photo-2.jpg') center no-repeat;
     background-size: cover;
 }
 
@@ -435,7 +435,7 @@ nav::before{
 }
 
 .proper-price{
-    background: url(/images/main-photo-1.jpg) center no-repeat;
+    background: url('../images/main-photo-1.jpg') center no-repeat;
     background-size: cover;
 }
 
