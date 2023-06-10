@@ -1,0 +1,190 @@
+#contact{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+h1{
+    padding-right: 20px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    font-size: 50px;
+    color: rgb(255, 145, 0);
+}
+.contactBlockImage {
+    float: right;
+    margin-right: 0;
+    justify-content: end;
+    width: 50%;
+    display: flex;
+}
+.contact-form{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 50px;
+}
+.name, 
+.email{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    height: 45px;
+    border-radius: 10px;
+    width: 35vw;
+    border: solid black 2px;
+    font-size: 18px;
+    padding-left: 5px;
+}
+
+.message {
+    margin-top: 10px;
+    height: 120px;
+    border-radius: 10px;
+    width: 35vw;
+    border: solid black 2px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+.send-btn {
+    width: 11vw;
+    height: 50px;
+    border-radius: 10px;
+    border: unset;
+    font-size: 20px;
+    transition-duration: 0.3s;
+    font-weight: bold;
+    background-color: bisque;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+}
+
+.send-btn:hover {
+    background-color: rgb(247, 201, 144);
+    cursor: pointer;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+@media (max-width: 1040px){
+    .contactBlockImage img{
+        height: 500px;
+    }
+}
+@media (max-width: 940px){
+    .contactBlockImage img{
+        height: 350px;
+    }
+    .contactLandingHeading {
+        font-size: 50px;
+    }
+    footer{
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 704px){
+    .contactBlockImage img{
+        height: 300px;
+    }
+    h1 {
+        font-size: 35px;
+    }
+    
+    .name, 
+    .email{
+        height: 35px;
+        width: 35vw;
+        font-size: 15px;
+    }
+
+    .message {
+        height: 100px;
+        width: 35vw;
+        font-size: 15px;
+    }
+    .send-btn {
+        width: 18vw;
+        height: 50px;
+        font-size: 18px;
+    }
+}
+@media (max-width: 610px){
+    h1 {
+        font-size: 30px;
+    }
+    .name, .email, .message {
+        width: 35vw;
+        font-size: 15px;
+    }
+    .send-btn {
+        width: 15vw;
+        height: 50px;
+        font-size: 17px;
+    }
+}
+@media (max-width: 550px){
+    .contactBlockImage img{
+        display: none;
+    }
+    .contactHeadingLanding {
+        width: 100%;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    .name, .email{
+        width: 65vw;
+        font-size: 20px;
+    }
+    .message{
+        height: 100px;
+        width: 65vw;
+        font-size: 20px;
+    }
+    .send-btn{
+        font-size: 18px;
+        width: 20vw;
+    }
+}
+@media (max-width: 465px){
+    .contactHeadingLanding {
+        width: 100%;
+    }
+    .contact-form{
+        margin-left: 20px;
+    }
+    h1 {
+        font-size: 35px;
+        margin-left: 20px;
+    }
+    .name, .email, .message {
+        width: 70vw;
+        font-size: 18px;
+    }
+    .send-btn {
+        width: 25vw;
+    }
+}
+@media (max-width: 400px){
+    .contactHeadingLanding {
+        width: 100%;
+    }
+    .contactLandingHeading {
+        font-size: 28px;
+    }
+    .name, .email, .message {
+        width: 70vw;
+        font-size: 15px;
+    }
+    .send-btn {
+        width: 25vw;
+    }
+}
+@media (max-width: 300px){
+    .send-btn {
+        width: 30vw;
+    }
+}
